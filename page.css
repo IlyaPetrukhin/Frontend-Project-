@@ -14,6 +14,19 @@ background: #2B2835;
 .bar-navigation{
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 78px;
+}
+.navigation .bar-navigation img .leftimg{
+  width: 49.87px;
+  height: 49.87px;
+  
+  background: #00B0FF;
+}
+.navigation .bar-navigation img .rightimg{
+  width: 25px;
+  height: 25px;
+background: #FFFFFF;
 }
 .navigation .bar-navigation p {
   font-family: Montserrat;
