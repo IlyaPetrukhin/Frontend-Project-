@@ -3,14 +3,25 @@ body {
   padding: 0;
 }
 
-.menu {
-  width: 100%;
-  height: 616px;
-  left: 0px;
-  top: 0px;
+.container {
+  position: relative;
+  width: 1440px;
+}
 
+.container .earphones {
+  width: 856px;
+  height: 766px;
+  position: absolute;
+  background: url(./images/Earphones.png);
+}
+
+.menu {
+
+  height: 694px;
+  margin-bottom: 0px;
   background: #2B2835;
 }
+
 
 .navigation {
   background: #191720;
@@ -95,14 +106,15 @@ body {
   color: #F2F2F2;
 }
 
-.description-price .round-button {
+.description-price .round-button1 {
   margin-left: 34px;
   padding: 11px 48px 13px 48px;
   background: #00B0FF;
   border-radius: 100px;
 }
 
-.description-price .round-button .btn {
+/* Кнопки  */
+.description-price .round-button1 .btn1 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -113,8 +125,6 @@ body {
   border: none;
 }
 
-.description-footer {}
-
 .description-footer p {
   font-family: Montserrat;
   font-style: normal;
@@ -122,4 +132,441 @@ body {
   font-size: 13px;
   line-height: 20px;
   color: #00B0FF;
+}
+
+/* Поработать с табами и отступами*/
+.main {
+  background-color: #F2F2F2;
+  margin-top: 0px;
+  display: flex;
+  height: 846px;
+}
+
+.portable {
+  width: 755px;
+  height: 755px;
+  background: url(./images/Bitmap.png);
+  margin-top: 67px;
+  ;
+}
+
+.main .beats {
+  padding-top: 239px;
+  padding-bottom: 231px;
+  margin: 0 67px 0 96px;
+}
+
+.main .beats .name p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.main .beats .header p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.main .beats .available p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.main .beats .find p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.main .beats .ovals {
+  display: flex;
+  align-items: center;
+}
+
+/* Овалы 2-го блока */
+
+.main .beats .ovals .ov1 {
+  width: 46px;
+  height: 46px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-right: 14px;
+  position: relative;
+}
+
+.main .beats .ovals .ov1 .inside {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+  margin: 3.2px 0 0 3.2px;
+}
+
+.main .beats .ovals .ov2 {
+  width: 37px;
+  height: 37px;
+  background: #DD5656;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+  margin-right: 13px;
+}
+
+.main .beats .ovals .ov3 {
+  width: 37px;
+  height: 37px;
+  background: #000000;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+}
+
+.main .beats .description-price {
+  display: flex;
+  align-items: center;
+}
+
+.main .beats .description-price p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.description-price .round-button2 {
+  padding: 12px 14.72px 12px 15.45px;
+  background: #000000;
+  border-radius: 100px;
+  margin-left: 58px;
+}
+
+.description-price .round-button2 .btn2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #000000;
+  border: none;
+}
+
+.main .beats .footer p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+}
+
+/* 2й блок (Надо поработать с background)*/
+
+.container2 {
+  width: 1440px;
+  height: 842px;
+  background: linear-gradient(305.06deg, #E040FB 34.05%, #0A00B6 94.39%);
+}
+
+.container2 .main2 {
+  display: flex;
+  align-items: center;
+}
+
+.container2 .main2 .earimg {
+  width: 701px;
+  height: 804px;
+  background: url(./images/Earphones2.png);
+  margin-left: 49px;
+  margin-bottom: 34px;
+  margin-top: 4px;
+}
+
+.container2 .main2 .text {
+  margin-top: 233px;
+  margin-left: 32px;
+}
+
+.container2 .main2 .text .begin {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F8F8F9;
+}
+
+.container2 .main2 .text .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #F8F8F9;
+  margin-top: -27px;
+  /*Отступы под вопросом*/
+}
+
+.container2 .main2 .text .content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: #F8F8F9;
+}
+
+.container2 .main2 .text .description-price {}
+
+.container2 .main2 .text .description-price .price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFF00;
+}
+
+.container2 .main2 .text .description-price .round-button3 {
+  padding: 10px 48px 14px 48px;
+  background: #000000;
+  border-radius: 100px;
+  margin-left: 41px;
+}
+
+.container2 .main2 .text .description-price .round-button3 .btn3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #000000;
+  border: none;
+}
+
+.container2 .main2 .text .footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 242px;
+}
+
+/*Вопросы по прозрачности*/
+.container3 {
+  width: 1440px;
+  height: 844px;
+  background: #F4F4F4;
+  mix-blend-mode: normal;
+  display: flex;
+  align-items: center;
+}
+
+.container3 .image2 {
+  background: url(./images/Earphones3.png);
+  width: 739px;
+  height: 739px;
+  margin-top: 38px;
+  margin-left: 25px;
+  margin-bottom: 67px;
+}
+
+.container3 .main3 {
+  opacity: 1;
+  margin: 205px 160px 307px 93px;
+}
+
+.container3 .main3 .begin {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.container3 .main3 .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.container3 .main3 .content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: #030303;
+}
+
+.container3 .main3 .description-price {}
+
+.container3 .main3 .description-price .price p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.container3 .main3 .description-price .round-button4 {
+  padding: 12px 14.72px 12px 15.45px;
+  background: #000000;
+  border-radius: 100px;
+  margin-left: 58px;
+}
+
+.container3 .main3 .description-price .round-button4 .btn4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: #000000;
+  border: none;
+}
+
+/*4й блок*/
+
+.container4 {
+  background: #F2F2F2;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  grid-template-columns: 296px 296px 296px 296px;
+  grid-template-rows: 543px 543px 543px 543px;
+}
+
+.container4 .slide {
+  width: 296px;
+  height: 543px;
+  background: #F8F8F9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container4 .slide .txt .name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 55px;
+  color: #2B2835;
+  width: 189.52px;
+height: 55.1px;
+}
+
+.container4 .slide .txt .header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #030303;
+  width: 255px;
+  height: 64px;
+}
+.container4 .slide .txt .description-price{
+  display: flex;
+  align-items: center;
+}
+.container4 .slide .txt .description-price .price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #9D8220;
+
+}
+
+.container4 .slide .txt .description-price .round-button5 {
+  padding: 11px 30px 13px 36px;
+  background: #000000;
+  border-radius: 100px;
+  margin-left: 13px;
+}
+
+.container4 .slide .description-price .round-button5 .btn5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  ;
+  background: #000000;
+  border: none;
+}
+
+.container4 .slide .photo1 {
+  background: url(./images/picture1.png);
+  width: 232px;
+  height: 315px;
+}
+
+.container4 .slide .photo2 {
+  width: 291px;
+  height: 289px;
+  background: url(./images/picture2.png);
+}
+
+.container4 .slide .photo3 {
+  background: url(./images/picture3.png);
+  width: 242px;
+  height: 264px;
+}
+
+.container4 .slide .photo4 {
+  background: url(./images/picture4.png);
+  width: 180px;
+  height: 297px;
+}
+
+.container4 .slide .photo5 {
+  background: url(./images/picture5.png);
+  width: 244px;
+  height: 320px;
+}
+
+.container4 .slide .photo6 {
+  background: url(./images/picture6.png);
+  width: 199px;
+  height: 306px;
 }
