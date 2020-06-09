@@ -1,9 +1,136 @@
 body {
-  background-color: #66ca64;
+  margin: 0;
+  padding: 0;
 }
-nav {
-  background-color: #c40000;
+
+.container {
+  position: relative;
+  width: 1440px;
 }
-.page-title {
-  color: greenyellow;
+
+.container .earphones {
+  width: 856px;
+  height: 766px;
+  position: absolute;
+
 }
+
+.menu {
+
+  height: 694px;
+  margin-bottom: 0px;
+  background: #2B2835;
+}
+
+
+.navigation {
+  background: #191720;
+  mix-blend-mode: normal;
+  opacity: 0.47;
+}
+
+.bar-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 78px;
+}
+
+.navigation .bar-navigation img .leftimg {
+  width: 49.87px;
+  height: 49.87px;
+  
+  background: #00B0FF;
+}
+
+.navigation .bar-navigation img .rightimg {
+  width: 25px;
+  height: 25px;
+  background: #FFFFFF;
+}
+
+.navigation .bar-navigation p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1.90909px;
+  color: #FFFFFF;
+
+}
+
+.menu-content {
+  margin: 121px 0 179px 797px;
+}
+
+.description-name {
+  margin-bottom: 13px;
+}
+
+.description-name p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.description-content {
+  margin-bottom: 40px;
+}
+
+.description-content p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+.description-price {
+  display: flex;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.description-price p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #F2F2F2;
+}
+
+.description-price .round-button1 {
+  margin-left: 34px;
+  padding: 11px 48px 13px 48px;
+  background: #00B0FF;
+  border-radius: 100px;
+}
+
+/* Кнопки  */
+.description-price .round-button1 .btn1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  background: #00B0FF;
+  border: none;
+}
+
+.description-footer p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #00B0FF;
+}
+
